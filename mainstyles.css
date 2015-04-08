@@ -1,0 +1,256 @@
+html {
+	overflow-y: scroll;
+}
+body {
+	text-align: justify;
+	margin: auto;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-image: url("spike.jpg");
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+#pageWrap {
+	margin: auto;
+	width: 1000px;
+	clear: both;
+	background-color: #E8EAFF;
+	box-shadow: 0px 0px 25px 10px #555;
+}
+#header {
+	margin: auto;
+	width: 1000px;
+	padding-top: 5px;
+	background: linear-gradient( #036, #0f74c0);
+}
+#header img {
+	float: left;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#header h1 a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: normal;
+	padding-left: 10px;
+	float: right;
+	width: 840px;
+}
+#signup {
+	float: left;
+	padding-top: 100px;
+	padding-left: 160px;
+}
+#signup a, #aboutsignup a {
+	text-decoration: none;
+	background: linear-gradient( #7AAF49, #5A8F29);
+	padding: 10px 25px 10px 25px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 3px;
+	color: #FFF;
+	box-shadow: 0px 0px 25px 10px #555;
+}
+#signup a:hover, #aboutsignup a:hover {
+	background: linear-gradient( #FEAE07, #D73600);
+}
+#aboutsignup {
+	float: right;
+	padding: 50px 40px 50px 40px;
+}
+#annoncement {
+	float: left;
+	width: 400px;
+	padding-left: 50px;
+}
+#sidebar {
+	margin: auto;
+	padding-left: 200px;
+	width: 410px;
+}
+#sidebar p {
+	font-weight: bold;
+	font-size: 20px;
+}
+#rightpic {
+	float: right;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#image, #textwrap {
+	box-shadow: 0px 0px 25px 10px #aaa;
+}
+#textwrap {
+	float: right;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#aboutcontent, #contactcontent {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+#form {
+	width: 350px;
+}
+#line {
+	clear: both;
+}
+#line label {
+	display: inline-block;
+	width: 400px;
+}
+#line input {
+	width: 160px;
+}
+#laddercontent, #signupcontent {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#ladder th, #ladder, #ladder td {
+	text-align: center;
+}
+#ladder {
+	background-color: #D73600;
+	box-shadow: 0px 0px 25px 10px #aaa;
+}
+#ladder th, #ladder td {
+	width: 95px;
+	background-color: #fff;
+}
+#link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+#link:hover {
+	color: #888;
+}
+#footer {
+	clear: both;
+	margin: auto;
+	width: 1000px;
+	border-top: solid;
+	border-top-color: #D73600;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	height: 130px;
+	background: linear-gradient( #6B6B6B, #1B1B1B);
+}
+#bottomnav {
+	float: left;
+	width: 180px;
+	background-color: rgba(255,255,255,0);
+}
+#footcontent {
+	width: 800px;
+	background-color: rgba(255,255,255,0);
+	float: right;
+	padding-top: 0px;
+	padding-right: 20px;
+}
+#footcontent h3 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #EEE;
+	padding-top: 0px;
+	letter-spacing: 1px;
+}
+#footcontent p {
+	color: #FFF;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+/* navmenu */
+
+#navbar {
+	clear: both;
+}
+#navbar, #navbar ul, #navbar ul li, #navbar ul li a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+}
+#navbar {
+	width: auto;
+	height: 34px;
+	padding-bottom: 4px;
+}
+#navbar ul li {
+	margin-right: 0;
+	margin-left: 4px;
+}
+#navbar #bottomBar, #navbar #bg {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+#navbar #bottomBar {
+	height: 5px;
+	background: #D73600;
+}
+#navbar #bg {
+	bottom: 4px;
+	height: 30px;
+	background: linear-gradient( #6B6B6B, #1B1B1B);
+}
+#navbar ul {
+	height: 39px;
+}
+#navbar ul li {
+	float: left;
+	margin-right: 4px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#navbar ul li a {
+	padding: 10px 25px 5px 25px;
+	margin-bottom: 4px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #eeeeee;
+	font-size: 15px;
+	text-decoration: none;
+}
+#navbar ul li:hover, #navbar ul li.active, #navbar ul li.signup:hover {
+	background: linear-gradient( #FEAE07, #D73600);
+}
+#navbar ul li.signup {
+	background: linear-gradient( #7AAF49, #5A8F29);
+	font-weight: bold;
+}
+#navbar ul li.activesignup {
+	background: linear-gradient( #FEAE07, #D73600);
+	font-weight: bold;
+}
+#bottomnav ul {
+	list-style: none;
+}
+#bottomnav ul li {
+	color: #eeeeee;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: left;
+	line-height: 14px;
+}
+#bottomnav ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFF;
+	text-align: left;
+	font-size: 12px;
+}
+#bottomnav ul li a:hover {
+	color: #FEAE07;
+}
